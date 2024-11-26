@@ -1,0 +1,21 @@
+.header {
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* width: 90%;
+  margin: 0 auto; */
+  height: 50px;
+  z-index: 1000;
+}
+.nav-links {
+  display: flex;
+  gap: 2rem;
+}
+.nav-links li {
+  list-style: none;
+}
+.nav-btn {
+  display: flex;
+  gap: 1rem;
+}
