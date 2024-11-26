@@ -38,7 +38,7 @@ const Feature = () => {
           </div>
         </div>
         <div className='feat-img'>
-          <img src={featImg}  height={300} width={300} alt="" />
+          <img src={featImg}   alt="" />
         </div>
         <div className='feat-right'>
           <div className='feature'>

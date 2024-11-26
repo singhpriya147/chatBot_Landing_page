@@ -1,5 +1,5 @@
 .about{
- height: 600px;
+ height: auto;
  display: flex;
  flex-direction: column;
 align-items: center;
@@ -10,17 +10,28 @@ align-items: center;
  flex-direction: row;
 }
 .about-detail{
- width:60%;
+ max-width:60%;
  text-align: center;
  padding: 2rem;
 }
 .about-img{
- width: 40%;
+
  overflow: hidden;
   
 }
 .about-img img{
   object-fit: cover;
+   width: 100%;
   border-radius: 12px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 4px 10px;
+}
+@media (max-width:720px) {
+  .about-main{
+    flex-direction: column;
+    /* background-color: aqua; */
+  }
+  .about-detail{
+    max-width: 100%;
+    text-align: center;
+  }
 }

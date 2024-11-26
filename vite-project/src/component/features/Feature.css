@@ -1,8 +1,8 @@
 .feature-section{
  display: flex;
  flex-direction: column;
-   /* height:500px; */
-   height: 100vh;
+  
+   /* height: 100vh; */
 
  align-items: center;
  justify-content: center;
@@ -21,12 +21,23 @@
   .feat-main{
     display: flex;
     flex-direction: row;
-
+/* background-color: chartreuse; */
+/* min-width: 300px; */
   }
   .feat-right ,.feat-left{
     display: flex;
     gap: 4rem;
     flex-direction:column
+  }
+  .feat-img{
+width: 300px; /* Specify the desired width */
+  height: 300px; /* Specify the desired height */
+  overflow: hidden
+  }
+  .feat-img img{
+ width: 100%;
+  height: 100%;
+  object-fit: cover; 
   }
   .feature{
     height: 2rem;
@@ -48,4 +59,10 @@
 }
   .feat-left .feature:nth-child(2) {
   margin-left: -2rem;
+}
+@media (max-width:720px) {
+  .feat-main{
+     /* flex-direction: column; */
+
+  }
 }

@@ -27,11 +27,22 @@ gap: 1rem;
   flex-direction: row;
   /* background-color: bisque; */
   gap:1rem;
- align-items: center;
+ /* align-items: center; */
  justify-content: center;
 
  }
  .card{
   background-color: rgb(255, 255, 255);
   border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding:0.5rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  width: 300px;
+ }
+ @media (max-width:720px) {
+  .pricing-cards{
+    flex-direction: column;
+  }
  }
