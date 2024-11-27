@@ -22,7 +22,7 @@
     display: flex;
     flex-direction: row;
 /* background-color: chartreuse; */
-/* min-width: 300px; */
+max-width: 100%;
   }
   .feat-right ,.feat-left{
     display: flex;

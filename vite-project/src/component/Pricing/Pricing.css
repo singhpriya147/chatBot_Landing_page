@@ -31,6 +31,14 @@ gap: 1rem;
  justify-content: center;
 
  }
+ .subtitle{
+  font-weight: 100;
+  position: relative;
+  top:-1rem;
+ }
+ .price{
+  font-weight: bold;
+ }
  .card{
   background-color: rgb(255, 255, 255);
   border-radius: 12px;

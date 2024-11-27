@@ -1,5 +1,5 @@
 import './Feature.css'
-import { feature } from '../../assets/Feature'
+// import { feature } from '../../assets/Feature'
 import featImg from '../../assets/chatbot-feature_converted-removebg-preview(1).png';
 const Feature = () => {
   return (

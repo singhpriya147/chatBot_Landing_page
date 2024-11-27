@@ -1,6 +1,7 @@
  export  const pricingPlans = [
            {
              title: 'Basic',
+             subtitle:'Ideal for small-scale operations ',
              price: '$9/month',
              features: [
                'Up to 500 conversations/month',
@@ -15,34 +16,34 @@
            },
            {
              title: 'Pro Plan',
+             subtitle:'Ideal for Small and Medium Businesses ',
              price: '$49/month',
              features: [
-               'Up to 5,000 conversations/month',
+               'Up to 5K conversations/month',
                'AI-driven suggestions for responses',
                'Integrates with Slack, WhatsApp, and CRMs (HubSpot, Salesforce)',
                'Custom branding',
                'Multi-language support',
-               'Advanced analytics',
-               'Website, Facebook Messenger, WhatsApp',
-               'Schedule messages',
-               'Priority email support',
+              
+               
              ],
              buttonText: 'Upgrade Now',
              // popular: true, // Optional flag for highlighting popular plans
            },
            {
              title: 'Enterprise Plan',
+             subtitle:'Ideal for Large Enterprises & Corporations',
              price: '$499/month',
              features: [
                'Unlimited conversations/month',
-               'Tailored solutions',
+               
                'Priority support',
                'API Access',
                'End-to-end encryption',
                'Dedicated account manager',
                'SLA for response time',
-               'Enterprise-grade workflows with multiple triggers/actions',
-               'Dedicated 24/7 support with a personal chatbot consultant',
+               'Enterprise-grade workflows',
+              //  'Dedicated 24/7 support with a personal chatbot consultant',
              ],
              buttonText: 'Contact Sales',
            },

@@ -14,6 +14,7 @@ const Pricing = () => {
           // <div className={`card ${plan.popular ? 'popular' : ''}`} key={index}>
           <div className='card' key={index}>
             <h3>{plan.title}</h3>
+            <span className='subtitle'>{plan.subtitle}</span>
             <p className='price'>{plan.price}</p>
             <ul>
               {plan.features.map((feature, idx) => (
