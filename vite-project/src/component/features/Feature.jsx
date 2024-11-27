@@ -1,5 +1,5 @@
 import './Feature.css'
-// import { feature } from '../../assets/Feature'
+
 import featImg from '../../assets/chatbot-feature_converted-removebg-preview(1).png';
 const Feature = () => {
   return (
@@ -12,18 +12,7 @@ const Feature = () => {
           and efficient asststance.
         </p>
       </div>
-      {/* <div className='feature-cards'>
-        {feature.map((feat, index) => (
-          <div key={index} className='card'>
-            <div>
-              <img src={feat.img} alt="" width={50} height={50} />
-              <h3>{feat.title}</h3>
-            </div>
-
-            <p>{feat.subtitle}</p>
-          </div>
-        ))}
-      </div> */}
+    
 
       <div className='feat-main'>
         <div className='feat-left'>
